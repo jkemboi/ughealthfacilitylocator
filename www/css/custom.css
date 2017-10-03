@@ -1,0 +1,57 @@
+a { color: #4B58A6; }
+a:hover { color: #4B58A6; }
+
+#map_canvas img {
+  max-width: none;
+}
+
+.filter-box { 
+  height: 15px; 
+  width: 15px;  
+  display: inline-block;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box; 
+}
+
+.filter-yellow { background-color: #FBF358; }
+.filter-green { background-color: #00E13C; }
+.filter-blue { background-color: #5781FC; }
+.filter-purple { background-color: #7C54FB; }
+.filter-red { background-color: #FB6353; }
+
+canvas {-ms-touch-action: double-tap-zoom;}
+
+/* customizations for iframe template */
+.iframe #map_canvas { height: 500px; }
+.iframe .well { margin-bottom: 5px; }
+.iframe .alert { margin-top: 5px; }
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v29/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
